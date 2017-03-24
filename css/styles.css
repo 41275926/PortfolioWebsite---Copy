@@ -1,0 +1,292 @@
+
+
+  body {
+
+    background-color: #E1C8FF;
+  }
+
+/* DON'T TOUCH*/
+
+.logo {
+  font-family: 'Quando', serif;
+  font-size: 5em;
+  line-height: 150px;
+  height: 52px;
+  background-color: #AB3CFF;
+  text-align: center;
+}
+
+.logo img {
+height:50px;
+width:200px;
+
+}
+
+.nav ul {
+  list-style: none;
+  background-color: #551E7F;
+  text-align: center;
+  padding: 0;
+  margin: 0;
+}
+
+.nav li {
+  font-family: 'Quando', serif;
+  font-size: 16px;
+  line-height: 40px;
+  height: 40px;
+  border-bottom: 1px solid #fff;
+
+}
+ 
+.nav a {
+  text-decoration: none;
+  color: #fff;
+  display: block;
+}
+ 
+.nav a:hover {
+  background-color: #66447F;
+}
+ 
+.nav a.active {
+  background-color: #fff;
+  color: #444;
+  cursor: default;
+}
+ 
+
+/* DON'T TOUCH END*/
+
+
+ .containermainzero{
+    margin: auto;
+    height: auto;
+    width: 80%;
+   /* border: 3px solid green; */
+    background-color: #CC89FF;
+      display: flex;
+   flex-direction: column;
+flex-wrap: wrap;
+   align-items: center;
+   
+ }
+
+.containermain1{
+
+  width:100%;
+}
+
+.containermain2{
+
+  width:100%;
+}
+
+
+
+/* DON'T TOUCH*/
+
+footer ul {
+  list-style: none;
+  background-color: #551E7F;
+  text-align: center;
+  padding: 0;
+  margin: 0;
+}
+
+footer li {
+  font-family: 'Quando', serif;
+  font-size: 10px;
+  height: 20px;
+  line-height: 20px;
+  border-bottom: 1px solid #fff;
+
+}
+ 
+
+footer a {
+  text-decoration: none;
+  color: #fff;
+  display: block;
+
+}
+
+
+footer a:hover {
+  background-color: #66447F;
+}
+ 
+footer a.active {
+  background-color: #fff;
+  color: #444;
+  cursor: default;
+}
+
+
+/* DON'T TOUCH END*/
+
+img {
+    max-width: 300px;
+    height: auto;
+}
+
+
+.thumbnails {
+  display:flex;
+ flex-wrap: nowrap;
+   flex-direction: column;
+       align-items: space-between;
+}
+
+
+.thumbnails img {
+  width: 200px;
+  height: 200px;
+margin-top:10px;
+margin-bottom:10px;
+  transition: all .2s ease-in-out;
+
+}
+
+.thumbnails:hover img {
+  opacity: .6;
+  transform: scale(.92);
+}
+
+.thumbnails:hover img:hover {
+  opacity: 1;
+  transform: scale(1) rotate(2deg);
+  box-shadow: 0 0 7px rgba(0, 0, 0, .5);
+}
+
+   /* UNREAL  */
+
+.containercontact {
+  display:flex;
+  justify-content: center;
+font-family: 'Quando', serif;
+  font-size: 16px;
+  line-height: 50px;
+  height: 300px;
+  padding: 10px;
+
+}
+
+.containerresume p{
+ display:flex;
+  justify-content: center;
+font-family: 'Quando', serif;
+  font-size: 16px;
+  line-height: 150px;
+  height: 700px;
+
+}
+
+@media screen and (min-width: 600px) {
+  .nav li {
+    width: 120px;
+    border-bottom: none;
+    height: 50px;
+    line-height: 50px;
+    font-size: 16px;
+    display: inline-block;
+   
+  }
+
+   .containermainzero{
+       display: flex;
+   align-items: center;
+  justify-content: center;
+    margin: auto;
+    height: auto;
+    width: 60%;
+   /* border: 3px solid green; */
+   padding: 10px;
+    background-color: #CC89FF;
+ }
+
+ .containermain1{
+
+  width:50%;
+}
+
+.containermain2{
+
+  width:50%;
+}
+
+
+  footer li {
+    width: 120px;
+    border-bottom: none;
+    height: 30px;
+    line-height: 30px;
+    font-size: 12px;
+    display: inline-block;
+    border-right:2px solid #fff;
+ 
+  }
+
+  footer li:last-child{
+    border-right:none;
+}
+
+
+
+.thumbnails {
+  display:flex;
+ flex-wrap: wrap;
+   flex-direction: row;
+justify-content: center;
+}
+
+
+.thumbnails img {
+  width: 200px;
+  height: 200px;
+margin:10px;
+  transition: all .2s ease-in-out;
+}
+
+.thumbnails:hover img {
+  opacity: .6;
+  transform: scale(.92);
+}
+
+.thumbnails:hover img:hover {
+  opacity: 1;
+  transform: scale(1) rotate(2deg);
+  box-shadow: 0 0 7px rgba(0, 0, 0, .5);
+}
+
+.logo {
+  font-family: 'Quando', serif;
+  font-size: 5em;
+  line-height: 150px;
+  height:150px;
+  background-color: #AB3CFF;
+  text-align: center;
+}
+
+.logo img {
+height:150px;
+width:700px;
+
+}
+
+
+img {
+    max-width: 700px;
+
+}
+
+.containercontact {
+  display:flex;
+  justify-content: center;
+font-family: 'Quando', serif;
+  font-size: 16px;
+  line-height: 150px;
+  height: 700px;
+
+}
+}
